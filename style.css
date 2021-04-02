@@ -730,7 +730,7 @@ img {vertical-align: middle;}
         left: 0;
         background: #167CB9;
         width: 50%;
-        height: 50%;
+        height: 100%;
         transform: translateX(-500px);
         transition: transform 0.5s ease-in-out;
         opacity: 0.9;
