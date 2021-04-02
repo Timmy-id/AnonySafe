@@ -155,6 +155,7 @@ ul {
 .app-info .info-stats {
     display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 .app-info .info-text h2 {
@@ -388,7 +389,7 @@ img {vertical-align: middle;}
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #fff;
+  background-color: #8eccf2;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -411,6 +412,7 @@ img {vertical-align: middle;}
     padding: 20px;
     border-radius: 10px;
     width: 50%;
+    height: 300px;
     margin: auto;
 }
 
@@ -584,7 +586,10 @@ img {vertical-align: middle;}
 .footer .socials {
     margin-top: 10px;
     display: flex;
-    justify-content: space-between;
+}
+
+.footer .socials a {
+    padding-right: 30px;
 }
 
 .footer .sub-footer {
@@ -702,6 +707,10 @@ img {vertical-align: middle;}
     .main-footer {
         padding: 20px;
     }
+
+    .mySlides p {
+        height: 200px;
+    }
 }
 
 @media(max-width: 600px) {
@@ -719,7 +728,7 @@ img {vertical-align: middle;}
         position: absolute;
         top: 0;
         left: 0;
-        background: #8eccf2;
+        background: #167CB9;
         width: 50%;
         height: 50%;
         transform: translateX(-500px);
@@ -782,23 +791,27 @@ img {vertical-align: middle;}
     }
 
     .features h2:before {
-        width: 60px;
-        left: 20px;
+        /* width: 60px;
+        left: 20px; */
+        display: none;
     }
     
     .features h2:after {
-        width: 60px;
-        right: 20px;
+        /* width: 60px;
+        right: 20px; */
+        display: none;
     }
 
     .testimonials .testimonial-items h2:before {
-        width: 80px;
-        left: 20px;
+        /* width: 80px;
+        left: 20px; */
+        display: none;
     }
     
     .testimonials .testimonial-items h2:after {
-        width: 80px;
-        right: 20px;
+        /* width: 80px;
+        right: 20px; */
+        display: none;
     }
 
     .article-cards {
@@ -814,13 +827,15 @@ img {vertical-align: middle;}
     }
 
     .articles h2:before {
-        width: 40px;
-        left: 15px;
+        /* width: 40px;
+        left: 15px; */
+        display: none;
     }
     
     .articles h2:after {
-        width: 40px;
-        right: 15px;
+        /* width: 40px;
+        right: 15px; */
+        display: none;
     }
 
     .footer .main-footer {
@@ -830,4 +845,22 @@ img {vertical-align: middle;}
     .footer .footer-info {
         width: 100%;
     }
+
+    .mySlides p {
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        width: 60%;
+        max-height: 400px;
+        height: 100%;
+        margin-bottom: 100px;
+    }
+
+    /* .testimonials {
+        margin-bottom: 50px;
+    }
+
+    .testimonials .dot {
+        margin-top: -80px;
+    } */
 }
