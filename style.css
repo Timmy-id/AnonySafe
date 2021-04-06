@@ -858,39 +858,39 @@ img {vertical-align: middle;}
     } */
 }
 
-@media(max-width: 540px) {
+@media(max-width: 500px) {
     .article-head .article-date {
-        bottom: 334px;
+        bottom: 307px;
     }
 
     .features h2:before {
-        width: 120px;
-        left: 30px;
+        width: 100px;
+        left: 20px;
     }
     
     .features h2:after {
-        width: 120px;
-        right: 30px;
+        width: 100px;
+        right: 20px;
     }
 
     .testimonials .testimonial-items h2:before {
-        width: 100px;
-        left: 60px;
+        width: 80px;
+        left: 50px;
     }
     
     .testimonials .testimonial-items h2:after {
-        width: 100px;
-        right: 60px;
+        width: 80px;
+        right: 50px;
     }
 
     .articles h2:before {
-        width: 100px;
-        left: 5px;
+        width: 80px;
+        left: 3px;
     }
     
     .articles h2:after {
-        width: 100px;
-        right: 5px;
+        width: 80px;
+        right: 3px;
     }
 }
 
