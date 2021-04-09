@@ -535,6 +535,14 @@ img {vertical-align: middle;}
     padding-bottom: 3px;
 }
 
+/* .contact-section {
+    margin-top: 100px;
+    background: linear-gradient(rgba(255, 135, 122, 0.81), rgba(255, 135, 122, 0.81)), url(images/map.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 100px;
+    color: #fff;
+} */
+
 .footer {
     background: #167CB9;
     color: #fff;
@@ -893,6 +901,42 @@ img {vertical-align: middle;}
     .testimonials .dot {
         margin-top: -80px;
     } */
+}
+
+@media(min-width: 570px) and (max-width: 650px) {
+    .article-head .article-date {
+        bottom: 463px;
+    }
+
+    .features h2:before {
+        width: 120px;
+        left: 20px;
+    }
+    
+    .features h2:after {
+        width: 120px;
+        right: 20px;
+    }
+
+    .testimonials .testimonial-items h2:before {
+        width: 100px;
+        left: 30px;
+    }
+    
+    .testimonials .testimonial-items h2:after {
+        width: 100px;
+        right: 30px;
+    }
+
+    .articles h2:before {
+        width: 100px;
+        left: 3px;
+    }
+    
+    .articles h2:after {
+        width: 100px;
+        right: 3px;
+    }
 }
 
 @media(max-width: 460px) {
