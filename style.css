@@ -268,9 +268,12 @@ ul {
     height: 50px;
 }
 
-.card-body h3,
-.card-body p {
+.card-body h3 {
     text-align: center;
+}
+
+.card-body p {
+    text-align: left;
 }
 
 .card-body h3 {
@@ -495,7 +498,7 @@ img {vertical-align: middle;}
 .article-head .article-date {
     /* padding-bottom: -50px; */
     position: absolute;
-    bottom: 322px;
+    bottom: 91%;
     background: #167CB9;
     border-top-left-radius: 10px;
     padding: 5px;
@@ -699,9 +702,9 @@ img {vertical-align: middle;}
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .article-head .article-date {
+    /* .article-head .article-date {
         bottom: 233px;
-    }
+    } */
 
     .articles h2:before {
         width: 150px;
@@ -723,9 +726,9 @@ img {vertical-align: middle;}
 }
 
 @media(max-width: 766px) {
-    .article-head .article-date {
+    /* .article-head .article-date {
         bottom: 306px;
-    }
+    } */
 
     .features h2:before {
         width: 170px;
@@ -858,9 +861,9 @@ img {vertical-align: middle;}
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .article-head .article-date {
+    /* .article-head .article-date {
         bottom: 487px;
-    }
+    } */
 
     .articles h2 {
         font-size: 18px;
@@ -904,9 +907,13 @@ img {vertical-align: middle;}
 }
 
 @media(min-width: 570px) and (max-width: 650px) {
-    .article-head .article-date {
-        bottom: 463px;
+    .app-info-items .info-btn {
+        padding: 10px;
     }
+
+    /* .article-head .article-date {
+        bottom: 463px;
+    } */
 
     .features h2:before {
         width: 120px;
@@ -940,9 +947,9 @@ img {vertical-align: middle;}
 }
 
 @media(max-width: 460px) {
-    .article-head .article-date {
+    /* .article-head .article-date {
         bottom: 367px;
-    }
+    } */
 
     .features h2:before {
         width: 100px;
@@ -976,9 +983,9 @@ img {vertical-align: middle;}
 }
 
 @media(max-width: 411px) {
-    .article-head .article-date {
+    /* .article-head .article-date {
         bottom: 257px;
-    }
+    } */
 
     .features h2:before {
         width: 80px;
@@ -1012,9 +1019,9 @@ img {vertical-align: middle;}
 }
 
 @media(max-width: 376px) {
-    .article-head .article-date {
+    /* .article-head .article-date {
         bottom: 309px;
-    }
+    } */
 
     .features h2:before {
         width: 60px;
