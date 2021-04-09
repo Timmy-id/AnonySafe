@@ -714,6 +714,42 @@ img {vertical-align: middle;}
     }
 }
 
+@media(max-width: 766px) {
+    .article-head .article-date {
+        bottom: 306px;
+    }
+
+    .features h2:before {
+        width: 170px;
+        left: 20px;
+    }
+    
+    .features h2:after {
+        width: 170px;
+        right: 20px;
+    }
+
+    .testimonials .testimonial-items h2:before {
+        width: 200px;
+        left: 70px;
+    }
+    
+    .testimonials .testimonial-items h2:after {
+        width: 200px;
+        right: 70px;
+    }
+
+    .articles h2:before {
+        width: 100px;
+        left: 10px;
+    }
+    
+    .articles h2:after {
+        width: 100px;
+        right: 10px;
+    }
+}
+
 @media(max-width: 600px) {
     .menu-btn {
         display: block;
