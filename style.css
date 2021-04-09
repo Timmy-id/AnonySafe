@@ -859,9 +859,9 @@ img {vertical-align: middle;}
     } */
 }
 
-@media(max-width: 500px) {
+@media(max-width: 460px) {
     .article-head .article-date {
-        bottom: 307px;
+        bottom: 367px;
     }
 
     .features h2:before {
@@ -876,21 +876,21 @@ img {vertical-align: middle;}
 
     .testimonials .testimonial-items h2:before {
         width: 80px;
-        left: 50px;
+        left: 30px;
     }
     
     .testimonials .testimonial-items h2:after {
         width: 80px;
-        right: 50px;
+        right: 30px;
     }
 
     .articles h2:before {
-        width: 80px;
+        width: 60px;
         left: 3px;
     }
     
     .articles h2:after {
-        width: 80px;
+        width: 60px;
         right: 3px;
     }
 }
@@ -931,9 +931,9 @@ img {vertical-align: middle;}
     }
 }
 
-@media(max-width: 375px) {
+@media(max-width: 376px) {
     .article-head .article-date {
-        bottom: 236px;
+        bottom: 309px;
     }
 
     .features h2:before {
